@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+.navbar-lewagon {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 16px;
+  background: white;
+  > i > p {
+    font-family: 'Open Sans', sans-serif;
+  }
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}

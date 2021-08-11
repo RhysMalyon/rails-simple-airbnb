@@ -1,0 +1,12 @@
+<div class="card-product">
+  <%= image_tag "http://source.unsplash.com/featured/?apartment&#{rand(1000)}"%>
+  <div class="card-product-infos">
+    <h2><%= flat.name %></h2>
+    <p><%= flat.address %></p>
+    <div class="d-flex justify-content-evenly">
+      <p><%= flat.price_per_night %></p>
+      <p><%= flat.number_of_guests %></p>
+    </div>
+  </div>
+  <%= link_to '', flat_path(flat), class: 'card-link' %>
+</div>
